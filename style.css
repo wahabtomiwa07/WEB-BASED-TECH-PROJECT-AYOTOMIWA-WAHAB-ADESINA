@@ -1,0 +1,76 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #111;
+  color: white;
+}
+
+nav {
+  background: black;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: yellow;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Projects Section */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+
+.projects img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Form */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: yellow;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .projects img {
+    width: 100%;
+  }
+}
